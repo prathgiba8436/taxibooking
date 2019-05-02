@@ -16,7 +16,7 @@ li a:hover{
  }
   .hed{
      font-size: 18px;
-    color:grey;
+    color:whitesmoke;
      }
      #p6{
        color:#e85505;
@@ -30,13 +30,13 @@ figure{
     
     }
     #ul3 li{
-                color: grey;
+        color:whitesmoke;
                 font-size: 18px;
                 line-height: 1.5;
             }
             #p7
             {
-                color: grey;
+                color:whitesmoke;
                 text-align: center;
                 font-size: 18px;
             }
@@ -51,4 +51,6 @@ figure{
                 width:  40px;
                 margin-right:10px;
             }
-    
+    nav{
+        height: 100px;
+    }
