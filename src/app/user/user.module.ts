@@ -25,11 +25,8 @@ import { SignInComponent } from './sign-in.component';
 
 
         BookRideComponent,
-
         RideNowComponent,
-
         SelectDriverComponent,
-
         ConfirmBookingComponent,
         UserSignUpComponent,
         SignInComponent

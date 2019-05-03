@@ -8,8 +8,8 @@ import { DriverWelcomeComponent } from './driver-welcome.component';
 
 export const DriverRoutes:Routes = [
     {path:"driver/home",component:DriverHomeComponent},
-    {path:"login",component:DriverLoginComponent},
-    {path:"registration",component:DriverRegistrationComponent},
+    {path:"driver/login",component:DriverLoginComponent},
+    {path:"driver/registration",component:DriverRegistrationComponent},
     {path:"driver/welcome",component:DriverWelcomeComponent}
 ]
 

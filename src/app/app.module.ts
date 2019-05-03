@@ -8,6 +8,7 @@ import { appRouter } from './app.router';
 import { WelcomeComponent } from './welcome.component';
 import { ResourceNotFoundComponent } from './notfound.component';
 import { DriverModule } from './driver/driver.module';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { DriverModule } from './driver/driver.module';
     BrowserModule,
     UserModule,
     DriverModule,
+    AdminModule,
     RouterModule.forRoot(appRouter)
   ],
   providers: [],
