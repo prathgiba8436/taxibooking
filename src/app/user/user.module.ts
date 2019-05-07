@@ -16,7 +16,7 @@ import { UserSignUpComponent } from './sign-up.component';
 import { RouterModule } from '@angular/router';
 import { userRoutes } from './user.route';
 import { SignInComponent } from './sign-in.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -36,7 +36,8 @@ import { SignInComponent } from './sign-in.component';
     imports: [
 
         BrowserModule,
-        RouterModule.forChild(userRoutes)
+        RouterModule.forChild(userRoutes),
+        ReactiveFormsModule
     ],
 
     exports: [
